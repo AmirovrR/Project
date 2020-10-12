@@ -1,0 +1,21 @@
+﻿<Window x:Class="Project.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Project"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid HorizontalAlignment="Left" Height="420" Margin="577,0,0,0" VerticalAlignment="Top" Width="215"/>
+        <Grid Background="AntiqueWhite" Height="420" Margin="577,0,0,0" VerticalAlignment="Top" Width="215"/>
+        <Grid HorizontalAlignment="Left" Height="420" Margin="0,0,677,0" VerticalAlignment="Top" Width="115"/>
+        <Grid Background="Gray" Height="420" Margin="0,0,677,0" VerticalAlignment="Top" Width="115">
+            <Button Content="Кнопка 3" HorizontalAlignment="Left" Margin="20,388,0,0" VerticalAlignment="Top" Width="75"/>
+            <Button Content="Кнопка 2" HorizontalAlignment="Left" Margin="20,361,0,0" VerticalAlignment="Top" Width="75"/>
+            <Button Content="Кнопка 1" HorizontalAlignment="Left" Margin="20,334,0,0" VerticalAlignment="Top" Width="75"/>
+        </Grid>
+        <Grid HorizontalAlignment="Left" Height="420" Margin="115,0,0,0" VerticalAlignment="Top" Width="462"/>
+        <Grid Background="WhiteSmoke" Height="420" Margin="115,0,215,0" VerticalAlignment="Top" Width="462"/>
+    </Grid>
+</Window>
